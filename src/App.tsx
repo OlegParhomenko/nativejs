@@ -10,7 +10,7 @@ const sentense = 'Hello my friends!';
 function App() {
   return (
     <div className="App">
-
+      Learn React
     </div>
   );
 }
