@@ -62,13 +62,13 @@ test("Houses should be destroyed", () => {
     expect(city.houses[0].id).toBe(1);
 });
 
-test.skip("list of streets titles of houses", () => {
-    let happyHouses = getHousesOnTheStreet(city.houses, "Happy street");
-    let whiteHouses = getHousesOnTheStreet(city.houses, "White street");
-
-    expect(happyHouses.length).toBe(2);
-    expect(whiteHouses.length).toBe(1);
-});
+// test.skip("list of streets titles of houses", () => {
+//     let happyHouses = getHousesOnTheStreet(city.houses, "Happy street");
+//     let whiteHouses = getHousesOnTheStreet(city.houses, "White street");
+//
+//     expect(happyHouses.length).toBe(2);
+//     expect(whiteHouses.length).toBe(1);
+// });
 
 test("buildings with correct staff count", () => {
     let buildings =
