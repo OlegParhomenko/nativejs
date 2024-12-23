@@ -33,7 +33,7 @@ test('get only completed task', () => {
         {id: 1, title: 'Bread', isDone: false},
         {id: 2, title: 'Milk', isDone: false},
         {id: 3, title: 'Cheese', isDone: true},
-        {id: 4, title: 'Meet', isDone: true},
+        {id: 4, title: 'Meat', isDone: true},
     ]
 
     const completedTask = tasks.filter(task => task.isDone)
