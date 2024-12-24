@@ -14,5 +14,7 @@ export const getSumHousesNumber = (houses: Array<HousesType>) =>{
 }
 
 export function createMessages(houses: Array<HousesType>) {
-    return houses.map(el => `Hello guys from ${el.address.street.title}`)
+    let callbackfn = (el: HousesType) => `Hello guys from ${el.address.street.title}`;
+    let newArray = houses.map(callbackfn);
+    return newArray
 }
